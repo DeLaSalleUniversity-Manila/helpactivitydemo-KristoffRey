@@ -1,0 +1,13 @@
+This is the help activity for the basic app and this is read from a text file!
+
+Instructions
+1.	To use the app, input two different values in the two separate text boxes.
+2.	Then, decide on the operation to be used.
+3.	Finally, click on the "Solve" button to compute for the answer!
+
+Basic Application Features
+Since this is a demo app, the simple app can perform basic mathematical operations.
+
+Developed by Kristofferson Reyes
+ID#11321695
+kristofferson.reyes@gmail.com

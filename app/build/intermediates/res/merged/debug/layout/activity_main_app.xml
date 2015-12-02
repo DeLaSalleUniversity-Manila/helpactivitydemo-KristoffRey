@@ -1,0 +1,77 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="com.example.kristoffrey.reyeshelp2.mainApp"
+    android:id="@+id/calculator">
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:ems="10"
+        android:id="@+id/num1"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="61dp" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:ems="10"
+        android:id="@+id/num2"
+        android:layout_below="@+id/num1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="52dp" />
+
+    <RadioButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Add"
+        android:id="@+id/radioAdd"
+        android:layout_marginTop="52dp"
+        android:checked="false"
+        android:layout_below="@+id/num2"
+        android:layout_alignStart="@+id/num2" />
+
+    <RadioButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Subtract"
+        android:id="@+id/radioSubtract"
+        android:layout_marginTop="29dp"
+        android:checked="false"
+        android:layout_below="@+id/radioAdd"
+        android:layout_alignStart="@+id/radioAdd" />
+
+    <RadioButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Multiply"
+        android:id="@+id/radioMultiply"
+        android:checked="false"
+        android:layout_alignTop="@+id/radioAdd"
+        android:layout_alignEnd="@+id/num2" />
+
+    <RadioButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Divide"
+        android:id="@+id/radioDivide"
+        android:checked="false"
+        android:layout_alignTop="@+id/radioSubtract"
+        android:layout_alignStart="@+id/radioMultiply" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Solve!"
+        android:id="@+id/buttonSolve"
+        android:layout_below="@+id/radioSubtract"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="29dp" />
+</RelativeLayout>
+<!-- From: file:/C:/Users/Kristoffer/AndroidStudioProjects/ReyesHelp2/app/src/main/res/layout/activity_main_app.xml -->
